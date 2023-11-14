@@ -21,15 +21,15 @@ After getting test.csv, you also need to calculate attributes such as qed, sa, l
 
 Build a character library and then divide the train and valid data sets.
 
-## 2. prior_train.py     
+## 2. Prior_train.py     
 
 Use the positive and negative samples of NLRP3 to train the pre-trained model.
 
-## 3. generator_train.py
+## 3. Generator_train.py
 
 Targeting NLRP3 to generate a large number of compounds using trained generative models.
 
-## 4. dm_train.py
+## 4. Dm_train.py
 
 Use the compounds generated in the previous step as an expanded training set to train the distillation model.
 
@@ -39,6 +39,6 @@ Use LSDC's reinforcement learning strategy to train the agent model to improve t
 
 ## References
 <a id="1">[1]</a> 
-jkwang93.
+Jike Wang et al.
 Multi-constraint molecular generation based on conditional transformer, knowledge distillation and reinforcement learning. 
 Nature Machine Intelligence, 3, 914–922 (2021).
