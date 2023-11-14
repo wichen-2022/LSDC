@@ -33,7 +33,7 @@ Targeting NLRP3 to generate a large number of compounds using trained generative
 
 Use the compounds generated in the previous step as an expanded training set to train the distillation model.
 
-## 5.LSDC-agent_train.py
+## 5. LSDC-agent_train.py
 
 Use LSDC's reinforcement learning strategy to train the agent model to improve the skeleton diversity of generated molecules.
 
