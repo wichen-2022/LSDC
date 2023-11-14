@@ -2,7 +2,7 @@
 
 #  LSDC
 
-## :1. Data processing and data partitioning
+## 1. Data processing and data partitioning
 
 ### :(1) deal_SMILES.py 
 
